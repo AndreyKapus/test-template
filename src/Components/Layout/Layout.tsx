@@ -1,7 +1,12 @@
+import AddProject from "./AddProject";
+import FilterProjects from "./Filter";
+
 const Layout = () => {
   return (
     <div>
-      <h1>Layout</h1>
+      <h1>Portfolio</h1>
+      <AddProject />
+      <FilterProjects />
     </div>
   );
 };
