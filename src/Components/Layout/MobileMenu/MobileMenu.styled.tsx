@@ -8,4 +8,14 @@ export const MobMenuWrapper = styled.div`
   width: 70%;
   display: block;
   background-color: white;
+  background-color: orange;
+`;
+
+export const MobileMenuBtn = styled.button`
+  background-color: transparent;
+  border: none;
+
+  @media screen and (min-width: 1280px) {
+    display: none;
+  }
 `;

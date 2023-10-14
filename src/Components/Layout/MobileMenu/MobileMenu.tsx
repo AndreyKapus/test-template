@@ -1,7 +1,8 @@
 import AddProject from "../AddProject/AddProject";
 import FilterProjects from "../Filter/Filter";
 import { useState } from "react";
-import { MobMenuWrapper } from "./MpbileMenu.styled";
+import { MobMenuWrapper, MobileMenuBtn } from "./MobileMenu.styled";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const MobileMenu = () => {
   const [openMobileMenu, setOpenMobileMenu] = useState<boolean>(false);
@@ -17,9 +18,9 @@ const MobileMenu = () => {
 
   return (
     <div>
-      <button type="button" onClick={toggleMobileMenu}>
-        Open menu
-      </button>
+      <MobileMenuBtn type="button" onClick={toggleMobileMenu}>
+        <GiHamburgerMenu />
+      </MobileMenuBtn>
       {openMobileMenu && (
         <MobMenuWrapper>
           <button type="button" onClick={onCloseMobileMenu}>
