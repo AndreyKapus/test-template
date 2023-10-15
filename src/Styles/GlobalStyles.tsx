@@ -7,6 +7,7 @@ export const GlobalStyles = css`
   }
 
   body {
+    font-family: Disket Mono;
     margin: 0px;
     color: #353635;
     font-style: normal;
