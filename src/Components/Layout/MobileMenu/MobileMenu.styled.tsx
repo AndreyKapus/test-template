@@ -20,3 +20,11 @@ export const MobileMenuBtn = styled.button`
     display: none;
   }
 `;
+
+export const CloseBtn = styled.button<MyProps>`
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 5px;
+  background-color: transparent;
+  border: none;
+`;
