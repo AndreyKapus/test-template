@@ -1,6 +1,7 @@
 import styled from "@emotion/styled";
+import { MyProps } from "../../../Styles/Theme";
 
-export const MobMenuWrapper = styled.div`
+export const MobMenuWrapper = styled.div<MyProps>`
   position: absolute;
   top: 0;
   left: 0px;
@@ -8,7 +9,7 @@ export const MobMenuWrapper = styled.div`
   width: 70%;
   display: block;
   background-color: white;
-  background-color: orange;
+  background-color: ${(p) => p.theme.colors.accent};
 `;
 
 export const MobileMenuBtn = styled.button`
