@@ -13,7 +13,7 @@ export const theme = {
 
   colors: {
     accent: "#6a5acd",
-    white: "fff",
+    white: "#FFFFFF",
   },
 };
 

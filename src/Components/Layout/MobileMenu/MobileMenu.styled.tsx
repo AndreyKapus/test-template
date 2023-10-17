@@ -8,6 +8,7 @@ export const MobMenuWrapper = styled.div<MyProps>`
   height: 100%;
   width: 70%;
   display: block;
+  padding: 10px 10px;
   background-color: white;
   background-color: ${(p) => p.theme.colors.accent};
 `;
@@ -22,9 +23,11 @@ export const MobileMenuBtn = styled.button`
 `;
 
 export const CloseBtn = styled.button<MyProps>`
-  margin-top: 10px;
-  margin-left: 10px;
   padding: 5px;
   background-color: transparent;
   border: none;
+`;
+
+export const MobMenuTitle = styled.h3<MyProps>`
+  color: ${(p) => p.theme.colors.white};
 `;

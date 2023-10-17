@@ -3,7 +3,12 @@ import FilterProjects from "../Filter/Filter";
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
-import { MobMenuWrapper, MobileMenuBtn, CloseBtn } from "./MobileMenu.styled";
+import {
+  MobMenuWrapper,
+  MobileMenuBtn,
+  CloseBtn,
+  MobMenuTitle,
+} from "./MobileMenu.styled";
 
 const MobileMenu = () => {
   const [openMobileMenu, setOpenMobileMenu] = useState<boolean>(false);
@@ -27,7 +32,7 @@ const MobileMenu = () => {
           <CloseBtn type="button" onClick={onCloseMobileMenu}>
             <AiOutlineClose color="fff" width="24px" height="24px" />
           </CloseBtn>
-          <div>Mobile menu</div>
+          <MobMenuTitle>Controls</MobMenuTitle>
           <AddProject />
           <FilterProjects />
         </MobMenuWrapper>
