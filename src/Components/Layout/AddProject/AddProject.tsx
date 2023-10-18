@@ -1,7 +1,9 @@
+import { AddProjectBtn } from "./AddProject.styled";
+
 const AddProject = () => {
   return (
     <>
-      <button type="button">Add project</button>
+      <AddProjectBtn type="button">Add project</AddProjectBtn>
     </>
   );
 };
