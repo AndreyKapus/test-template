@@ -1,7 +1,9 @@
+import { FiterBtn } from "./Filter.styled";
+
 const FilterProjects = () => {
   return (
     <>
-      <button type="button">Sort by technologies</button>
+      <FiterBtn type="button">Sort by technologies</FiterBtn>
     </>
   );
 };
