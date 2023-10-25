@@ -14,6 +14,8 @@ export const MobMenuWrapper = styled.div<MyProps>`
 `;
 
 export const MobileMenuBtn = styled.button`
+  margin-top: 10px;
+  margin-left: 10px;
   background-color: transparent;
   border: none;
 
