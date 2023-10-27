@@ -14,7 +14,10 @@ const AddProject = () => {
       {width < 768 ? (
         <AddProjectBtn type="button">Add project</AddProjectBtn>
       ) : (
-        <div>New project</div>
+        <div>
+          <div>New project</div>
+          <div>Contacts</div>
+        </div>
       )}
     </>
   );
