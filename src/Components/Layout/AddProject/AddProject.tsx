@@ -16,7 +16,6 @@ const AddProject = () => {
       ) : (
         <div>
           <div>New project</div>
-          <div>Contacts</div>
         </div>
       )}
     </>
