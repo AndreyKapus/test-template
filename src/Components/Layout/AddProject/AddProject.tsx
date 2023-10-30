@@ -15,7 +15,7 @@ const AddProject = () => {
         <AddProjectBtn type="button">Add project</AddProjectBtn>
       ) : (
         <div>
-          <div>New project</div>
+          <div>Add project</div>
         </div>
       )}
     </>
