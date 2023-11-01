@@ -16,6 +16,8 @@ const AddProject = () => {
       ) : (
         <div>
           <div>Add project</div>
+          <div>Add filter</div>
+          <div>Add project</div>
         </div>
       )}
     </>
